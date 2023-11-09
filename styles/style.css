@@ -1,0 +1,65 @@
+/*------------------------HEADER-----------------*/
+.header {
+    padding: 15px 0;
+    background: #F7EBE5;
+}
+
+header * {
+    font-family: "Proxima Nova Regular", sans-serif;
+    font-size: 14px;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu a {
+    margin-right: 14px;
+}
+
+.header-menu a:last-child {
+    margin-right: 76px;
+}
+
+.header-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header-info > div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header-info select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.header-social-icons {
+    display: flex;
+    gap: 10px;
+}
+.second-header-flex {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.second-header-flex .percent {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.second-header-flex select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/*---------------------END---HEADER-----------------*/
